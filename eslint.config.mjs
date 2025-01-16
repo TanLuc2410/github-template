@@ -12,6 +12,7 @@ export default [
         "ignoreReadBeforeAssign": false
       }],
       "object-shorthand": ["error", "always"],
+      "no-unused-vars": "error",
       "no-array-constructor": "error",
       "array-callback-return": "error",
       "quotes": ["error", "single", { "avoidEscape": true }],
