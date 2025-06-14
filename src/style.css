@@ -1,0 +1,54 @@
+/* Presets */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+main {
+  inline-size: min(65ch, 100% - 4rem);
+  margin-inline: auto; /* === margin: 0 auto;*/
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+picture,
+svg {
+  max-inline-size: 100%; /* === max-width*/
+  display: block;
+}
+
+button {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline-color: transparent;
+}
+
+/* :focus {}        When focus using mouse */
+/* :focus-visible {}        When focus using tab (keyboard) or screen readers*/
+
+/*STYLES*/
